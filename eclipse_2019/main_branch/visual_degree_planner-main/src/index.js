@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import * as firebase from 'firebase';
 
-
 var firebaseConfig = {
     apiKey: "AIzaSyAL1mJ94GO8tchNCqxBt74GSqByxlZPePM",
     authDomain: "visual-degree-planner.firebaseapp.com",
