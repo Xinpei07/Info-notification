@@ -1,0 +1,5 @@
+.Graph {
+  border: solid black;
+  height: calc(100vh*0.62);
+  width: 100%;
+}

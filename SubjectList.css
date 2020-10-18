@@ -1,0 +1,51 @@
+.List {
+    overflow: auto;
+    height: 100%;
+    width: calc(100vh * 0.3);
+    display: flex;
+    flex-direction: column;
+}
+.Button {
+    display: flex;
+    flex-direction: column;
+}
+.result {
+    height: calc(100vh * 0.6);
+}
+
+.button {
+    margin: 2px;
+    background-color:#008CBA; 
+    border: none;
+    outline:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+	background-color: #b6ebfb; 
+	color: white;
+}
+
+.button1 {
+    padding: 8px 16px;
+    background-color: #008CBA;
+    color: white;
+}
+
+.button1:hover {
+    background-color:#008CBA;
+}
+.button2 {
+    margin: 0px;
+    padding: 4px 8px;
+    font-size: 8px;
+    background-color: #b6ebfb;
+}
+
+.button2:hover {
+    background-color:#008CBA;
+}
