@@ -1,0 +1,118 @@
+
+
+.course-dependency {
+  cursor: not-allowed;
+}
+
+
+/* Add custom styling for selected nodes */
+[class*="react-flow__node-"] {
+  border-color: #1a192b;
+}
+[class*="react-flow__node-"] .react-flow__handle {
+  background: #1a192b;
+}
+[class*="react-flow__node-"].selected {
+  box-shadow: 0 0 5px 1px #1a192b;
+  background: #073b4c;
+  color: white;
+  font-weight: bold;
+}
+.node-highlight {
+  box-shadow: 0 0 3px 0.3px #1a192b;
+}
+[class*="react-flow__node-"].selectable:hover {
+  box-shadow: 0 0 5px 1px #1a192b;
+}
+[class*="react-flow__node-"].selected:hover {
+  box-shadow: 0 0 8px 3px #1a192b;
+}
+
+
+.course-fork-0 {
+  border: #54478c;
+  box-shadow: 0 0 5px 3px #54478c;
+}
+.course-fork-0.selectable:hover {
+  box-shadow: 0 0 8px 4px #54478c;
+}
+.course-fork-1 {
+  border: #2c699a;
+  box-shadow: 0 0 5px 3px #2c699a;
+}
+.course-fork-1.selectable:hover {
+  box-shadow: 0 0 8px 4px #2c699a;
+}
+.course-fork-2 {
+  border: #05a3c7;
+  box-shadow: 0 0 5px 3px #05a3c7;
+}
+.course-fork-2.selectable:hover {
+  box-shadow: 0 0 8px 4px #05a3c7;
+}
+.course-fork-3 {
+  border: #0db39e;
+  box-shadow: 0 0 5px 3px #0db39e;
+}
+.course-fork-3.selectable:hover {
+  box-shadow: 0 0 8px 4px #0db39e;
+}
+.course-fork-4 {
+  border: #83e377;
+  box-shadow: 0 0 5px 3px #83e377;
+}
+.course-fork-4.selectable:hover {
+  box-shadow: 0 0 8px 4px #83e377;
+}
+.course-fork-5 {
+  border: #efea5a;
+  box-shadow: 0 0 5px 3px #efea5a;
+}
+.course-fork-5.selectable:hover {
+  box-shadow: 0 0 8px 4px #efea5a;
+}
+.course-fork-6 {
+  border: #f1c453;
+  box-shadow: 0 0 5px 3px #f1c453;
+}
+.course-fork-6.selectable:hover {
+  box-shadow: 0 0 8px 4px #f1c453;
+}
+.course-fork-7 {
+  border: #f29e4c;
+  box-shadow: 0 0 5px 3px #f29e4c;
+}
+.course-fork-7.selectable:hover {
+  box-shadow: 0 0 8px 4px #f29e4c;
+}
+.course-fork-8 {
+  border: #ef476f;
+  box-shadow: 0 0 5px 3px #ef476f;
+}
+.course-fork-8.selectable:hover {
+  box-shadow: 0 0 8px 4px #ef476f;
+}
+/* Default class if we run out of classes*/
+.course-fork {
+  border: #ef476f;
+  box-shadow: 0 0 5px 3px #ef476f;
+}
+.course-fork.selectable:hover {
+  box-shadow: 0 0 8px 4px #ef476f;
+}
+.Graph {
+  height: calc(100vh * 0.63);
+  width: 100%;
+}
+
+/* Add custom styling for selected nodes */
+[class*="react-flow__node-"].selected {
+  /*box-shadow: 0 0 0 0.5px #1a192b*/
+  /*box-shadow: 0 0 0 0.5px white;*/
+  background: lightblue;
+}
+
+.GraphFlow {
+  width: 100%;
+  height: 100%;
+}
